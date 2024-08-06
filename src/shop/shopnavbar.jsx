@@ -1,9 +1,7 @@
 import React from 'react'
 
-function shopnavbar() {
+export default function shopnavbar() {
   return (
     <div>shopnavbar</div>
   )
 }
-
-export default shopnavbar
