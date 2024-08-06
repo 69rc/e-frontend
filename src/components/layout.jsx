@@ -1,11 +1,10 @@
-
-import React from 'react';
 import Footer from './footer/footer'; 
+import { Outlet } from 'react-router-dom';
 
-const Layout = ({ children }) => {
+const Layout = () => {
   return (
     <>
-      <main>{children}</main>
+      <Outlet />
       <Footer />
     </>
   );
